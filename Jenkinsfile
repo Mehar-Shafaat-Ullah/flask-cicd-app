@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REPO_URL = 'https://github.com/<your-username>/flask-ci-cd.git'
+        REPO_URL = 'https://github.com/<your-uername>/flask-ci-cd.git'
         DOCKER_IMAGE = 'yourdockerhub/flask-app'
         DEPLOY_SERVER = 'ec2-user@<your-server-ip>'
     }
